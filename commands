@@ -1,0 +1,5 @@
+yarn sequelize migration:create --name=databasename
+
+yarn sequelize db:migrate
+
+yarn sequelize db:migrate:undo
